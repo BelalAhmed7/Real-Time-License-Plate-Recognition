@@ -47,7 +47,7 @@ pip install -r requirements.txt
 You also need:
 
 - `yolov8n.pt` — downloaded automatically by Ultralytics on first run.
-- `license_plate_detector.pt` — a YOLOv8 model fine-tuned on a license plate dataset (we used a dataset from Roboflow). Place the weights in the project root.
+- `license_plate_detector.pt` - a YOLOv8 model fine-tuned on a license plate dataset. The trained weights are not included in this repository. Place compatible weights in the project root.
 - `sample.mp4` — the input video.
 
 ## 🚀 Usage
