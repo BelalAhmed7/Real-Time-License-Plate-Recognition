@@ -37,7 +37,6 @@ flowchart LR
 | `add_missing_data.py` | Interpolates missing bounding boxes between detections |
 | `visualize.py` | Draws tracked cars, plates and recognized numbers on the video |
 | `test.csv` | Sample output produced on the test video |
-| `docs/` | Graduation project presentation |
 
 ## ⚙️ Installation
 
@@ -80,7 +79,7 @@ python visualize.py
 
 ## 🎓 Context
 
-This module is part of the graduation project *Real-Time Object Detection for Autonomous Vehicles* (see `docs/`), which combines three fine-tuned YOLO models — cars/pedestrians/cyclists, license plates and traffic lights — deployed with a Gradio interface on Hugging Face.
+This module is part of the graduation project *Real-Time Object Detection for Autonomous Vehicles*, which combines three fine-tuned YOLO models — cars/pedestrians/cyclists, license plates and traffic lights — deployed with a Gradio interface on Hugging Face.
 
 ## 🙏 Credits
 
